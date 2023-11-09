@@ -9,4 +9,4 @@ cars = spark.table("cars")
 unique_types_count = cars.select(countDistinct("Type")).collect()[0][0]
 
 # Printing the result
-print("汽车类型数为：", unique_types_count)
+print("汽车类型数为：, unique_types_count)
